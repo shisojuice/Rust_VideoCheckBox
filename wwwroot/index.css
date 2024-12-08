@@ -1,0 +1,23 @@
+body {
+  font-family: monospace;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+#canvas_zone {
+  display: grid;
+}
+
+#asciiCanvasDiv {
+  display: grid;
+  gap: 0;
+  grid-template-columns: repeat(64,1fr);
+}
+
+input[type="checkbox"] {
+  margin: 0;
+  padding: 0;
+  width: 9px;
+  height: 9px;
+}
